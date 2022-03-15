@@ -1,21 +1,19 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main -Entry point
- *
- *Return: Always 0 (success/correct)
- */
-
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-int c;
+	char ermias[] = "_putchar";
 
-c = getchar();
-while (c != EOF)
-{
-putchar(c);
-putchar('\n');
-c = getchar();
-}
-return (0);
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(ermias[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
