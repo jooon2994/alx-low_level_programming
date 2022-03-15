@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _isapha - tests whether a character is from the english alphabet.
  * @c: character to be checked.
